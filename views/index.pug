@@ -1,0 +1,52 @@
+doctype html 
+html 
+    head 
+        title ANDY's DANCE ACADEMY
+        style 
+            include ../static/style.css 
+
+    body 
+        nav#navbar
+            ul
+                div#logo
+                    img(src="/static/logo.jpg", alt="")
+                    |ADA
+                li #[a.na(href="/") HOME]
+                li #[a.na(href="/") ABOUT US]
+                li #[a.na(href="/") CONTACT US]
+                li #[a.na(href="/") SIGN IN]
+        section#intro 
+            div Welcome to ANDY's Dance academy
+            div EAT SLEEP DANCE REPEAT
+        h2#miss  OUR MISSION       
+        section#mission 
+            
+            div.card
+                h4  LOVE THE WAY YOU DANCE
+                img(src="/static/logo.jpg", alt="")
+            div.card
+                h4 DANCE THE WAY YOU LOVE
+                img(src="/static/logo.jpg", alt="")
+            div.card
+                h4 LIVE TO DANCE
+                img(src="/static/logo.jpg", alt="")
+            div.card
+                h4 DANCE TO LIVE
+                img(src="/static/logo.jpg", alt="")
+        section#sponsor 
+            div.sp OUR SPONSORS
+                div.spons
+
+                    div.s
+                        img(src="/static/s1.png", alt="")
+                    div.s
+                        img(src="/static/s2.png", alt="")
+                    div.s
+                        img(src="/static/s3.png", alt="")
+                    div.s
+                        img(src="/static/s4.png", alt="")
+
+        footer#footer
+            | copyrights &copy ANDY's DANCE ACADEMY(ADA)
+        script 
+            include ../static/index.js

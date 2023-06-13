@@ -1,0 +1,23 @@
+doctype html 
+html 
+    head
+        title ANDY's DANCE ACADEMY
+        block scripts 
+        block style 
+                style 
+                     include ../static/style.css
+        link(rel="icon", type="image/x-icon",href="/static/logo.jpg ")
+    body 
+        nav#navbar
+            ul
+                div#logo
+                    img(src="/static/logo.jpg", alt="")
+                    |ADA
+                li #[a.na(href="/") HOME]
+                li #[a.na(href="/") ABOUT US]
+                li #[a.na(href="/contact") CONTACT US]
+                li #[a.na(href="/") SIGN IN]
+        block content 
+       
+        footer#footer
+            | copyrights &copy ANDY's DANCE ACADEMY(ADA)
